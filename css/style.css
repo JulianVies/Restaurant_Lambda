@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css?family=Yeseva+One');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+    overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+section {
+    padding: 7% 0;
+}
+.btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+header {
+    min-height: 650px!important;
+}
+.jumbotron{
+    min-height: 640px!important;
+}
+
+/*UTILITY*/
+.my-btn-dark {
+    width: 228px;
+    height: 60px;
+    font-size: 18px;
+    border: 1px #000 solid;
+    border-radius: 0;
+    color: #fff;
+    opacity: 0.9;
+    background-color: rgba(0, 0, 0, .6);
+    transition: 0.2s;
+}
+
+.my-btn-dark:hover {
+    background-color: rgba(255, 255, 255, .25);
+    border: 1px rgba(255, 255, 255, .5) solid;
+    transition: 0.2s;
+}
+
+/*HEADER*/
+header * {
+    font-family: 'Yeseva One', cursive;
+}
+
+/*NAV BAR*/
+.navbar {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-top:0;
+}
+
+.navbar-collapse {
+    text-align: center;
+    padding-top:0!important;
+}
+
+.navbar-collapse a {
+    transition: 0.1s;
+}
+
+.navbar-collapse a:hover {
+    opacity: 0.9;
+    transition: 0.1s;
+}
+.navbar-collapse, .navbar-nav ul, .navbar-nav li, .navbar-nav li a {
+    min-height:116px;
+}
+.navbar-nav li {
+    margin: 0 1rem;
+    font-size: 17px;
+    opacity: 0.95;
+}
+
+.navbar-nav li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link.current {
+    border-top: 2px #eee solid;
+}
+
+.navbar-text a {
+    padding: 3px !important;
+}
+
+.navbar-text .nav {
+    min-width: 95px;
+}
+
+/*HERO*/
+.jumbotron .container-fluid {
+    position: relative;
+    content: "";
+    height: 124px;
+}
+
+.jumbotron .container {
+    padding-top: 40px;
+}
+
+.jumbotron {
+    min-height: 100vh;
+    background: url(../images/main-hero.jpg) no-repeat center/cover;
+}
+
+.jumbotron h1 {
+    max-width: 1000px;
+}
+
+.jumbotron .container img {
+    margin: 1.7rem;
+}
+
+.jumbotron .d-flex {
+    height: 70vh;
+}
+
+.jumbotron .btn {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0.7rem;
+}
+
+/*ABOUT*/
+#about {
+    background: url(../images/about-bg.jpg) no-repeat center/cover;
+    padding: 4% 0 1.5% 0;
+}
+
+#about .text-center {
+    padding-left: 60px;
+    padding-right: 0;
+}
+
+#about .text-center h3 {
+    font-family: 'Yeseva One', cursive;
+    color: #dea700;
+    font-size: 38px;
+}
+
+#about .text-center img:first-of-type {
+    margin: 0.1rem 0 1.5rem 0;
+}
+
+#about .text-center p {
+    font-family: 'Lato', sans-serif;
+}
+
+#about .text-center img:last-child {
+    margin-top: 3rem;
+    margin-left: 70px;
+}
+
+/*INGREDIENTS*/
+#ingredients {
+    background: url(../images/ingredients-bg.jpg) no-repeat center/cover;
+}
+
+#ingredients .text-center {
+    background: url(../images/blackboard-1.png) no-repeat center/cover;
+    padding: 5rem;
+}
+
+#ingredients .text-center h3 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 38px;
+}
+
+#ingredients .text-center>img:first-of-type {
+    margin: 0.1rem 0 1.5rem 0;
+}
+
+#ingredients .text-center p {
+    font-family: 'Lato', sans-serif;
+}
+
+#ingredients .text-center .d-flex {
+    margin-top: 4rem;
+}
+
+#ingredients .text-center .d-flex img {
+    margin: 1rem;
+}
+
+/*MENU*/
+#menu {
+    background: url(../images/menu-bg.png) no-repeat center/cover;
+}
+
+.my-card {
+    padding-top: 2rem;
+}
+
+.my-card h3 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 34px;
+    color: #dea700;
+}
+
+.my-card .my-card-item {
+    width: 90%;
+    padding: 0 0.5rem;
+    margin: 2rem auto;
+}
+
+.my-card .my-card-item:first-of-type {
+    margin-top: 1rem !important;
+}
+
+.my-card .my-card-item.my-special {
+    border: 1px rgba(204, 153, 0, 0.5) solid;
+    position: relative;
+}
+
+.my-card .my-card-item.my-special:before {
+    content: "";
+    display: block;
+    width: 69px;
+    height: 22px;
+    background: url(../images/menu-special.png) no-repeat center/cover;
+    position: absolute;
+    top: -22px;
+    right: -1px;
+}
+
+.my-card .my-card-item .my-item-title {
+    font-family: 'Yeseva One', cursive;
+    font-size: 20px;
+    color: #dea700;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px rgba(204, 153, 0, 0.3) solid;
+    margin-bottom: 1rem;
+}
+
+.my-card .my-card-item p {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+/*REVIEW*/
+#review {
+    background: url(../images/review-bg.jpg) no-repeat center/cover;
+}
+
+#review .text-center {
+    background: url(../images/blackboard-2.png) no-repeat center/cover;
+    padding: 5rem 4rem;
+}
+
+#review .text-center h3 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 38px;
+}
+
+#review .text-center>img:first-of-type {
+    margin: 0.1rem 0 1.5rem 0;
+}
+
+#review .text-center p {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    color: #dde0df;
+    position: relative;
+    line-height: 3.1rem;
+    max-width: 695px;
+    margin: 10 auto;
+}
+
+#review .text-center p::before {
+    display: inline-block;
+    content: "";
+    background: url(../images/quote.png) no-repeat center/cover;
+    width: 35px;
+    height: 29px;
+    position: absolute;
+    left: -30px;
+    top: -5px;
+}
+
+#review .text-center span {
+    display: block;
+    padding: 1rem;
+    font-size: 18px;
+}
+
+/*RESERVATION*/
+
+#reservation {
+    background: url(../images/reservation-bg.jpg) no-repeat center/cover;
+}
+
+#reservation .text-center h3 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 34px;
+    color: #dea700;
+}
+
+#reservation .text-center img:first-of-type {
+    margin: 0.1rem 0 1rem 0;
+}
+
+#reservation .text-center p {
+    font-family: 'Lato', sans-serif;
+}
+
+#reservation form {
+    margin-top: 2rem;
+}
+
+#reservation form label {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #dea700;
+    margin: 0;
+}
+
+#reservation form input {
+    border-radius: 0;
+    opacity: 0.5 !important;
+}
+
+#reservation form input:focus {
+    border-color: #dea700;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset, 0 0 1px #dea700;
+    outline: 0 none;
+}
+
+#reservation form input::placeholder {
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+
+#reservation form input::-webkit-datetime-edit-fields-wrapper {
+    color: rgba(0, 0, 0, 0.7);
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+
+.my-btn-yellow {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    padding: 0 !important;
+    background-color: #dea700;
+    border-radius: 0;
+    margin: 1rem;
+}
+
+.my-btn-yellow:hover {
+    background-color: #b38d24;
+}
+
+/*FOOTER*/
+footer {
+    background: #191919;
+    padding: 3% 0;
+}
+footer * {
+    opacity: 0.99;
+}
+footer h3 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 22px;
+}
+footer p {
+    font-family: 'Lato', sans-serif;
+    max-width: 650px;
+    margin:auto;
+    padding: 0 1rem;
+}
+
+footer .row>div>img:first-of-type {
+    margin: 0.5rem 0 1rem 0;
+}
+footer .row>div {
+    margin: 1rem 0;
+}
+footer .row>div:nth-child(2)>img:last-of-type, footer .row>div>ul {
+    margin-top: 2rem;
+}
+
+/*RESPONSIVE QUERIES*/
+
+@media only screen and (max-width:1199px) {
+    .navbar-nav .nav-item {
+        margin: 0 8px!important;
+    }
+
+    #about .row>img {
+        height: 526.31px;
+        width: 560px;
+    }
+
+    #reservation img[alt="ph-1"] {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    nav {
+        background: url(../images/blackboard-2.png) no-repeat center/cover !important;
+    }
+
+    .navbar-collapse, .navbar-nav ul, .navbar-nav li, .navbar-nav li a {
+        min-height:auto;
+    }
+    .nav-link.current{
+        border: 0;
+    }
+    .jumbotron h1 {
+        font-size: 60px;
+    }
+    #about .row {
+        justify-content: center !important;
+    }
+
+    #about .text-center {
+        padding-left: 0;
+    }
+
+    #ingredients .row {
+        justify-content: center !important;
+    }
+
+    #reservation img[alt="ph-2"] {
+        display: none;
+    }
+
+    footer .row>div:nth-child(2)>img:last-of-type, footer .row>div>ul {
+        margin-top: 0;
+    }
+
+    p, a, buttons, inputs, labels {
+        font-size: 20px!important;
+    }
+    #review .text-center p {
+        line-height: 2rem;
+        font-size: 22px!important;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .jumbotron h1 {
+        font-size: 50px;
+    }
+
+    #about img[alt="dish"] {
+        display: none;
+    }
+
+    #about .text-center {
+        margin-bottom: 2rem;
+    }
+    #ingredients .text-center, #review .text-center {
+        padding: 2rem;
+    }
+    p {
+        padding: 2rem;
+        margin: 0; 
+    }
+    .my-card-item p {
+        padding: 1rem;
+        padding-top: 0;
+    }
+    #ingredients .text-center .d-flex {
+        margin-top:1rem;
+    }
+    #ingredients .text-center .d-flex img {
+        margin: 0rem;
+    }
+    #review .text-center p {
+        padding: 1rem;
+    }
+    #reservation p:first-of-type {
+        padding-bottom: 0!important;
+    }
+
+    #reservation label {
+        font-size: 20px;
+    }
+    #reservation .btn{
+        width: 228px;
+        height: 60px;
+        font-size: 22px;
+    }
+
+    footer {
+        padding-top: 2rem;
+    }
+}
